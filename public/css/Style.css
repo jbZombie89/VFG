@@ -1,0 +1,349 @@
+
+@media only screen and (min-width: 250px){
+a{
+  text-decoration: none;
+}
+.Header{
+  position: absolute;
+  height: 9em;
+  width: 100%;
+  display: inline-block;
+  background-image: url("../images/vfgheader.jpg");
+  background-size: 100% 70%;
+  background-repeat: no-repeat;
+}
+.MenuDrop{
+  position: absolute;
+  height: auto;
+  top: 3em;
+  width: 200%;
+  background: -moz-linear-gradient(45deg, #BFBFBF 0%, #E0E0E0 37%, #F7F7F7 100%); /* ff3.6+ */
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #BFBFBF), color-stop(37%, #E0E0E0), color-stop(100%, #F7F7F7)); /* safari4+,chrome */
+background: -webkit-linear-gradient(45deg, #BFBFBF 0%, #E0E0E0 37%, #F7F7F7 100%); /* safari5.1+,chrome10+ */
+background: -o-linear-gradient(45deg, #BFBFBF 0%, #E0E0E0 37%, #F7F7F7 100%); /* opera 11.10+ */
+background: -ms-linear-gradient(45deg, #BFBFBF 0%, #E0E0E0 37%, #F7F7F7 100%); /* ie10+ */
+background: linear-gradient(45deg, #BFBFBF 0%, #E0E0E0 37%, #F7F7F7 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F7F7F7', endColorstr='#BFBFBF',GradientType=1 ); /* ie6-9 */
+  display: none;
+  z-index: 4;
+}
+.item{
+  position: relative;
+  height: 2em;
+  width: 100%;
+  background-color: #e0e2e5;
+  z-index: 5;
+  color: #3f3f3f;
+  font-size: 1.4em;
+  margin-bottom: 1em;
+  line-height: 1.8;
+  -webkit-box-shadow: 0px 0px 41px -3px rgba(224,226,229,1);
+  -moz-box-shadow: 0px 0px 41px -3px rgba(224,226,229,1);
+  box-shadow: 0px 0px 41px -3px rgba(224,226,229,1);
+}
+
+.lCol{
+  position: absolute;
+  display: inline-block;
+  height: 3em;
+  top: 6em;
+  width: 50%;
+}
+
+.mCol{
+  position: absolute;
+  width: 100%;
+  height: 6em;
+}
+
+.rCol{
+  position: absolute;
+  display: inline-block;
+  height: 3em;
+  width: 50%;
+  left: 50%;
+  top: 6em;
+}
+
+.menu{
+  position: relative;
+  height: 3em;
+  width: 100%;
+  top: -1.2em;
+  line-height: 1.8;
+  background: #8e9eab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  z-index: 3;
+}
+#cName{
+  position: relative;
+  top: -.6em;
+  color: #eff0f2;
+  line-height: .8;
+  text-shadow: -1px 0 #5b5f66, 0 1px #5b5f66, 1px 0 #5b5f66, 0 -1px#5b5f66;
+}
+.cName{
+  position:relative;
+  height: 8em;
+  width: 100%;
+  font-size: 110%;
+  overflow: auto;
+  text-align: center;
+}
+
+.contactMethod{
+  position: relative;
+  height: 3em;
+  width: 100%;
+  top: -1.2em;
+  line-height: 1.8;
+  background: #8e9eab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.MainContainer{
+  position: relative;
+  height: 75em;
+  width: 100%;
+  top: 10em;
+  background: -moz-linear-gradient(45deg, #BFBFBF 0%, #E0E0E0 37%, #F7F7F7 100%); /* ff3.6+ */
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #BFBFBF), color-stop(37%, #E0E0E0), color-stop(100%, #F7F7F7)); /* safari4+,chrome */
+background: -webkit-linear-gradient(45deg, #BFBFBF 0%, #E0E0E0 37%, #F7F7F7 100%); /* safari5.1+,chrome10+ */
+background: -o-linear-gradient(45deg, #BFBFBF 0%, #E0E0E0 37%, #F7F7F7 100%); /* opera 11.10+ */
+background: -ms-linear-gradient(45deg, #BFBFBF 0%, #E0E0E0 37%, #F7F7F7 100%); /* ie10+ */
+background: linear-gradient(45deg, #BFBFBF 0%, #E0E0E0 37%, #F7F7F7 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F7F7F7', endColorstr='#BFBFBF',GradientType=1 ); /* ie6-9 */}
+.mainBody{
+  position: relative;
+  height: 14em;
+  width: 100%;
+  background-image: url("../images/VFG.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#cMTxt{
+  position: relative;
+  top: 1.8em;
+  color: #efefef;
+  line-height: 1.4;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.vfgHighlights{
+  position: relative;
+  height: 10em;
+  width: 100%;
+  top: 1em;
+}
+
+.jobsCompleted{
+  position: relative;
+  height: 5em;
+  width: 100%;
+  padding-top: .6em;
+}
+.reviews{
+  position: relative;
+  height: 5em;
+  width: 100%;
+  padding-top: .6em;
+}
+.aboutVFG{
+  position: relative;
+  width: 100%;
+  top: 2em;
+}
+
+.res{
+  position: absolute;
+  height: auto;
+  width:100%;
+  top: 10em;
+}
+.resMessage{
+  position: relative;
+  height: 15em;
+  width: 100%;
+  background-image: url("../images/lackeyhouse.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  }
+#resMes{
+  position: relative;
+  top: 3em;
+  line-height: 1.6;
+  text-align: center;
+  font-size: 1.6em;
+  color: #5e6063;
+  height: auto;
+  background-color: #f7f9fc;
+  opacity:.8;
+}
+#deck{
+  background-image: url("../images/deck.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#LVT{
+  background-image: url("../images/LVT.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#kitchen{
+  background-image: url("../images/kitchen.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#commercial{
+  background-image: url("../images/commercial.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.one{
+  position: relative;
+  height: auto;
+  width: 100%;
+}
+
+.content{
+  position: relative;
+  height: auto;
+  display: none;
+  background-color: #eaebf2;
+}
+#contParent{
+  font-size: 1.4em;
+}
+#contChild{
+  font-size: 1.2em;
+  line-height: 1.8;
+}
+#contChild2{
+  font-size: 1.4em;
+  line-height: 1.8;
+  color: white;
+  text-shadow: 1px 0px 5px rgba(150, 150, 150, 1);
+}
+.lvtF{
+  position: relative;
+  display: block;
+  height: 12em;
+  width:18em;
+  margin-top: .4em;
+  margin-bottom: .6em;
+}
+#lvt1{
+  background-image: url("../images/lvtdiagram.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#lvt2{
+  background-image: url("../images/lvtwood.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#lvt3{
+  background-image: url("../images/lvtile.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#tile1{
+  background-image: url("../images/tileone.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#tile2{
+  background-image: url("../images/tiletwo.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#tile3{
+  background-image: url("../images/tilethree.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#composite{
+  background-image: url("../images/compositedeck.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+}
+
+
+@media only screen and (min-width: 380px){
+.Header{
+  height: 6em;
+}
+.lCol, .rCol{
+  top: 3em;
+  z-index: 2;
+}
+
+@media only screen and (min-width: 500px){
+  .mainBody{
+    position: relative;
+    height: 18em;
+  }
+  #cMTxt{
+    position: relative;
+    top: 1.8em;
+    color: #efefef;
+    line-height: 1.4;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+
+}
+@media only screen and (min-width: 700px){
+.Header{
+  height: 3.1em;
+  top: 2em;
+  z-index: 5;
+}
+.MainContainer{
+  top: 4em;
+  height: 65em;
+}
+.vfgHighlights{
+  top: 3.4em;
+}
+.lCol, .rCol{
+    top: 0em;
+    width: 20%;
+    z-index: 2;
+  }
+.menu{
+  background-color: red;
+}
+.mCol{
+  background-color: white;
+}
+.rCol{
+  left: 80%;
+  background-color: blue;
+}
+.mainBody{
+  top: 3em;
+  height: 22em;
+}
+#cMTxt{
+  top: 5em;
+}
+.aboutVFG{
+  top: 4em;
+}
+.resMessage{
+  height: 30em;
+}
+.res{
+  top: 6.4em;
+}
+
+}
